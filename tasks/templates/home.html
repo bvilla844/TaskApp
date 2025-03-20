@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <main class="container py-5">
+    <section class="card card-body">
+      <h1 class="display-1 text-center">Task App</h1>
+      <p>
+        <strong>Task App</strong> is a simple yet powerful task management system designed to help you organize your daily activities efficiently. With this app, you can:
+      </p>
+      <ul style="list-style: none; padding: 0; margin: 0;">
+        <li>✅ <strong>Create new tasks</strong> and set them as pending.</li>
+        <li>✅ <strong>Edit existing tasks</strong> to update their details.</li>
+        <li>✅ <strong>Mark tasks as completed</strong> to keep track of your progress.</li>
+        <li>✅ <strong>Delete tasks</strong> that are no longer needed.</li>
+        <li style="margin-bottom: 15px;">✅ <strong>View all pending and completed tasks</strong> in an intuitive interface.</li>
+    </ul>
+    <p>With <strong>Task App</strong>, managing your to-do list has never been easier!</p>   
+    </section>
+    <div class="text-center py-2">
+      <a class="btn btn-dark" href="/signin/">Sign In</a>
+      <a class="btn btn-secondary" href="/signup/">Sign Up</a>
+    </div>
+  </main>
+{% endblock %}
